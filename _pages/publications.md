@@ -4,12 +4,11 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-You can also find my publications on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-\<br/>
+You can also find my publications on my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"}
 
 * Denotes equal author contributions
 
-**Saturating Nonlinearities of Contrast Response in Human Visual Cortex**<br/>Vinke* LN, Bloem* IM, Ling S (2022). *Journal of Neuroscience*.<br/>[Link to paper](https://www.jneurosci.org/content/42/7/1292.abstract) \| [pdf](http://ilonabloem.github.io/files/Vinke_etal_2022_JNeurosci.pdf) \| [data and code](https://osf.io/8g6ap/)
+**Saturating Nonlinearities of Contrast Response in Human Visual Cortex**<br/>Vinke* LN, Bloem* IM, Ling S (2022). *Journal of Neuroscience*.<br/>[Link to paper](https://www.jneurosci.org/content/42/7/1292.abstract){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/Vinke_etal_2022_JNeurosci.pdf) \| [data and code](https://osf.io/8g6ap/)
 
 **The specificity of orientation-tuned normalization within human early visual cortex**<br/>Klímová M, Bloem IM, Ling S (2021). *Journal of Neurophysiology*.<br/>[Link to paper](https://journals.physiology.org/doi/full/10.1152/jn.00203.2021) \| [pdf](http://ilonabloem.github.io/files/Klimova_etal_2021_JNeurophy.pdf) \| [data and code](https://osf.io/bcyp5/)
 
