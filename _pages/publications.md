@@ -5,7 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 You can also find my publications on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-\* Equal author contributions
+\<br/>
+
+* *Equal author contributions*
 
 **Saturating Nonlinearities of Contrast Response in Human Visual Cortex**<br/>Vinke* LN, Bloem* IM, Ling S (2022). *Journal of Neuroscience*.<br/>[Link to paper](https://www.jneurosci.org/content/42/7/1292.abstract) \| [pdf](http://ilonabloem.github.io/files/Vinke_etal_2022_JNeurosci.pdf) \| [data and code](https://osf.io/8g6ap/)
 
