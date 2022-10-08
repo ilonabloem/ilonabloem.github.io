@@ -3,8 +3,10 @@ main:
   - title: "Publications"
     url: /publications/
     
+  - title: "Resources"
+    url: /resources/  
+    
   - title: "CV"
     url: /files/Bloem CV.pdf
 
-  - title: "Resources"
-    url: /resources/  
+
