@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ilona M. Bloem"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Ilona M. Bloem"
 description              : &description "personal description"
