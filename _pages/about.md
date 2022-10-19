@@ -17,6 +17,7 @@ My past and current research focuses on the neural mechanisms underlying percept
 <br/>[Jonathan Winawer](https://wp.nyu.edu/winawerlab/)
 <br/>[Mike Landy](https://wp.nyu.edu/landylab/)
 <br/>[Sam Ling](https://sites.bu.edu/vision/)
+<br/>[Louis Vinke](https://scholar.google.com/citations?user=aZly_KAAAAAJ&hl=en)
 <br/>[Joe McGuire](https://sites.bu.edu/cdlab/)
 <br/>[Leah Bakst](https://leahbakst.com/)
 <br/>[Stephanie Badde](https://sites.tufts.edu/multisensory/)
