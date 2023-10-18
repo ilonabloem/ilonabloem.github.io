@@ -10,7 +10,7 @@ You can also find my publications on my [Google Scholar profile](https://scholar
 
 **Normalization by orientation-tuned surround in V1-V3**<br/>Fang Z, Bloem IM, Olssen C, Ma WJ, Winawer J (2023). *bioRxiv*.<br/>[Link to paper](https://www.biorxiv.org/content/10.1101/2021.11.06.467486v3){:target="_blank"} \| [data and code](https://osf.io/vxjya/){:target="_blank"}
 
-**Attention preserves the selectivity of feature-tuned normalization**<br/>Klímová M, Bloem IM, Ling S (2023). *Journal of Neurophysiology*.<br/>[Link to paper](https://doi.org/10.1152/jn.00194.2023){:target="_blank"} \| [data and code](https://osf.io/6tq8h/){:target="_blank"}
+**Attention preserves the selectivity of feature-tuned normalization**<br/>Klímová M, Bloem IM, Ling S (2023). *Journal of Neurophysiology*.<br/>[Link to paper](https://journals.physiology.org/doi/full/10.1152/jn.00194.2023){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/klímová-et-al-2023-attention-preserves-the-selectivity-of-feature-tuned-normalization.pdf){:target="_blank"} \| [data and code](https://osf.io/6tq8h/){:target="_blank"}
 
 **Saturating Nonlinearities of Contrast Response in Human Visual Cortex**<br/>Vinke* LN, Bloem* IM, Ling S (2022). *Journal of Neuroscience*.<br/>[Link to paper](https://www.jneurosci.org/content/42/7/1292.abstract){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/Vinke_etal_2022_JNeurosci.pdf){:target="_blank"} \| [data and code](https://osf.io/8g6ap/){:target="_blank"}
 
