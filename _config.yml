@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : Ilona Bloem
 title_separator          : "-"
-name                     : &name "Ilona M. Bloem, PhD"
-description              : &description "personal description"
+name                     : 
+description              : 
 url                      : https://ilonabloem.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ilonabloem/ilonabloem.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ilona M. Bloem, PhD"
+  name             : 
   avatar           : "ilonabloem.jpg"
-  bio              : "Cognitive neuroscientist interested in perception and cognition"
+  bio              : 
   location         : "Amsterdam, NL"
   employer         :
   pubmed           : 
