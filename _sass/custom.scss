@@ -2,7 +2,8 @@
 .intro-hero {
   width: 100vw !important;
   max-width: 100vw !important;
-  min-height: 60vh;
+  min-height: 100vh;
+  margin-left: calc(50% - 50vw) !important;
   margin: 0; 
   background-image: url('/assets/images/brain-background.jpg');
   background-size: cover;
@@ -132,6 +133,7 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
 .main-bar {
   width: 100vw;
   height: 60px;
