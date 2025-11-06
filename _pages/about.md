@@ -6,6 +6,18 @@ redirect_from:
   - /about.html
 ---
 
+<div class="intro-hero">
+  <div class="intro-overlay">
+    <h1>ILONA BLOEM</h1>
+    <nav class="intro-links">
+      <a href="#about">ABOUT ME</a> |
+      <a href="#research">SCIENTIFIC PROJECTS</a> |
+      <a href="#publications">PUBLICATIONS</a> |
+      <a href="#CV">CV</a>
+    </nav>
+  </div>
+</div>
+
 ## About me {#about}
 
 I am a postdoctoral researcher working with [Serge Dumoulin](https://www.spinozacentre.nl/dumoulin/) at the Spinoza Centre in Amsterdam, Netherlands. I obtained my PhD at Boston University, working in the lab of [Sam Ling](https://sites.bu.edu/vision/), and did postdoctoral research with [Mike Landy](https://wp.nyu.edu/landylab/) and [Jon Winawer](https://wp.nyu.edu/winawerlab/) at New York University. 
