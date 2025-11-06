@@ -17,7 +17,7 @@ My past and current research focuses on the neural mechanisms underlying percept
 ## Scientific projects
 
 <a id="publications"></a>
-## Publications {#publications}
+## Publications 
 For a full list of my publications see my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"}
 
 *Denotes equal author contributions
@@ -43,5 +43,5 @@ For a full list of my publications see my [Google Scholar profile](https://schol
 **Scrutinizing visual images: The role of gaze in mental imagery and memory**<br/>Laeng B, Bloem IM, D’Ascenzo S, & Tommasi L (2014). *Cognition*.<br/>[Link to paper](https://www.sciencedirect.com/science/article/pii/S0010027714000043){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/Laeng_etal_2014_Cognition.pdf){:target="_blank"}
 
 <a id="cv"></a>
-## CV {#cv}
+## CV
 Download a recent version of my CV [here](http://ilonabloem.github.io/files/Bloem%20CV.pdf){:target="_blank"}
