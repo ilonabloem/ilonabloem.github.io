@@ -1,20 +1,21 @@
 
-
 ---
 title: "About"
 permalink: /
-layout: single
+layout: page
 author_profile: true
 ---
 
-## About
+## About {#about}
 Brief summary
 
-## Research
+## Research {#research}
 Summaries
 
-## Publications
+## Publications {#publications}
 You can find a full list of my publications see my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"} page
+
+
 
 #---
 #permalink: /
