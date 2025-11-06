@@ -18,16 +18,16 @@ redirect_from:
   </div>  
 </div>
 
-## About me
+## About me {#about}
 
 I am a postdoctoral researcher working with [Serge Dumoulin](https://www.spinozacentre.nl/dumoulin/) at the Spinoza Centre in Amsterdam, Netherlands. I obtained my PhD at Boston University, working in the lab of [Sam Ling](https://sites.bu.edu/vision/), and did postdoctoral research with [Mike Landy](https://wp.nyu.edu/landylab/) and [Jon Winawer](https://wp.nyu.edu/winawerlab/) at New York University. 
 
 My past and current research focuses on the neural mechanisms underlying perception and cognition. Broadly, I am interested in how our perception of the world around us can be shaped by cognitive influences, such as attention and working memory. The methods I employ for my research span a wide range: **functional neuroimaging** (fMRI and intracranial EEG) to measure brain responses; **behavioral psychophysics** to measure human behavior; and, **computational modeling** to link brain and behavior to theoretical models. 
   
-## Scientific projects 
+## Scientific projects {#research}
 
  
-## Publications
+## Publications {#publications}
 For a full list of my publications see my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"}
 
 *Denotes equal author contributions
@@ -53,5 +53,5 @@ For a full list of my publications see my [Google Scholar profile](https://schol
 **Scrutinizing visual images: The role of gaze in mental imagery and memory**<br/>Laeng B, Bloem IM, D’Ascenzo S, & Tommasi L (2014). *Cognition*.<br/>[Link to paper](https://www.sciencedirect.com/science/article/pii/S0010027714000043){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/Laeng_etal_2014_Cognition.pdf){:target="_blank"}
 
 
-## CV
+## CV {#cv}
 Download a recent version of my CV [here](http://ilonabloem.github.io/files/Bloem%20CV.pdf){:target="_blank"}
