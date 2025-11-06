@@ -7,15 +7,12 @@ layout: single
 author_profile: true
 ---
 
-<a name="about"></a>
 ## About
 Brief summary
 
-<a name="research"></a>
 ## Research
 Summaries
 
-<a name="publications"></a>
 ## Publications
 You can find a full list of my publications see my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"} page
 
