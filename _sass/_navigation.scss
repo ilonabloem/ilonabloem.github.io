@@ -181,6 +181,9 @@
   width: 100%;
   background: $background-color;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: flex-end; // Align children to the right
+  align-items: center;       // Center vertically
 
   a {
     display: block;
@@ -194,6 +197,13 @@
     }
   }
 
+.greedy-nav .visible-links a,
+   .site-nav a {
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+   }
+   
   button {
     position: absolute;
     height: 100%;
