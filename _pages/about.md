@@ -7,7 +7,9 @@ redirect_from:
 ---
 
 <div class="intro-hero">
+  
   <div class="intro-overlay">
+    
     <h1>ILONA BLOEM</h1>
     <nav class="intro-links">
       <a href="#about">ABOUT ME</a> |
@@ -15,7 +17,9 @@ redirect_from:
       <a href="#publications">PUBLICATIONS</a> |
       <a href="#CV">CV</a>
     </nav>
+    
   </div>
+  
 </div>
 
 <div class="section-page" id="about">
