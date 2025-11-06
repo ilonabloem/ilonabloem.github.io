@@ -13,7 +13,7 @@ redirect_from:
       <a href="#about">ABOUT ME</a> |
       <a href="#research">SCIENTIFIC PROJECTS</a> |
       <a href="#publications">PUBLICATIONS</a> |
-      <a href="#CV">CV</a>
+      <a href="#cv">CV</a>
     </nav>    
   </div>  
 </div>
