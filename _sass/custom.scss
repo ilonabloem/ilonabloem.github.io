@@ -1,0 +1,95 @@
+.section-page {
+  background: #fff;
+  margin: 2em 0;
+  padding: 2em 1em;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .section-page {
+    padding: 1em 0.2em;
+    margin: 1em 0;
+  }
+}
+
+.intro-hero {
+  background-image: url('/assets/images/brain-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.intro-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.intro-hero h1 {
+  color: #fff;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  margin: 0.5em 0 1em 0;
+}
+
+.intro-links {
+  color: #fff;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  flex-wrap: wrap;
+}
+
+.intro-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+.intro-links a:hover,
+.intro-links a:focus {
+  border-bottom: 2px solid #ffc600;
+}
+
+/* Responsive rules */
+@media (max-width: 700px) {
+  .intro-hero,
+  .intro-overlay {
+    min-height: 60vh;
+    width: 100vw;
+    padding: 2rem 0;
+  }
+  .intro-hero h1 {
+    font-size: 2.1rem;
+  }
+  .intro-links {
+    font-size: 1rem;
+    flex-direction: column;
+  }
+  .intro-links a {
+    margin: 1em 0.5em;
+    padding: 0.2em 0;
+    font-size: 0.95rem;
+  }
+}
