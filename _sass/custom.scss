@@ -131,8 +131,13 @@ body {
   justify-content: space-between;
   padding: 0 2em;
   position: fixed;
+  transition: top 0.3s;
   top: 0; left: 0; z-index: 200;
   border-bottom: 1px solid #eee; /* Optional subtle divider */
+}
+
+.main-bar-hidden {
+  top: -80px; /* or use display: none if you prefer an instant hide/show */
 }
 
 .site-title {
