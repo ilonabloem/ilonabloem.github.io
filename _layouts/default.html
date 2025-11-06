@@ -14,7 +14,7 @@ layout: compress
   <script>
   window.addEventListener('scroll', function() {
     var mainNav = document.getElementById('site-nav');
-    var dropdownNav = document.getElementById('dropdown-nav');
+    var dropdownNav = document.getElementById('dropdown_nav');
     var hero = document.querySelector('.intro-hero');
     if (hero && window.scrollY > hero.offsetHeight - 20) {
       mainNav.classList.add('nav-hidden');
@@ -28,9 +28,21 @@ layout: compress
 
   <script>
   document.querySelector('.menu-toggle').onclick = function() {
-    var menu = document.querySelector('#dropdown-nav .menu');
+    var menu = document.querySelector('#dropdown_nav .menu');
     menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
   };
+  </script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var toggle = document.querySelector('#dropdown_nav .menu-toggle');
+    var menu = document.querySelector('#dropdown_nav .menu');
+    if (toggle && menu) {
+      toggle.onclick = function() {
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+      };
+    }
+  });
   </script>
   
   <body>
