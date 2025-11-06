@@ -1,35 +1,39 @@
-@media (max-width: 600px) {
-  .section-page {
-    padding: 1em 0.2em;
-    margin: 1em 0;
-  }
-}
 
 .intro-hero {
+  min-height: 60vh;
+  width: 100%;
   background-image: url('/assets/images/brain-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  width: 100vw;                    /* Full viewport width */
-  margin-left: calc(-50vw + 50%);  /* Break out of content grid */
-  margin-right: calc(-50vw + 50%);
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;              /* Not fixed */
-  z-index: 5;                      /* Above content but below nav */
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
 }
 
 .content-wrapper {
   padding-top: 0;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
+ .intro-hero {
+    min-height: 40vh;       /* Much smaller on mobile, so text starts quickly after */
+    padding: 1.5rem 0;
+  }
+  .intro-hero h1 {
+    font-size: 2rem;
+  }
+  .intro-links {
+    font-size: 1rem;
+  }
   .content-wrapper {
     padding-top: 0;
   }
 }
+
 .intro-overlay {
   position: absolute;
   left: 0; top: 0; width: 100vw; height: 100vh;
