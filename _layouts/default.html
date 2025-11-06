@@ -11,44 +11,10 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var mainBar = document.querySelector('.main-bar');
-    var hero = document.querySelector('.intro-hero');
-    var toggle = document.querySelector('.menu-toggle');
-    var mega = document.getElementById('mega-menu');
-    var lastState = false;
-    // Hide bar until scroll past hero
-    if(mainBar) mainBar.classList.add('main-bar-hidden');
-    window.addEventListener('scroll', function() {
-      if (!mainBar || !hero) return;
-      var threshold = hero.offsetHeight - 20;
-      if(window.scrollY > threshold && !lastState) {
-        mainBar.classList.remove('main-bar-hidden'); lastState=true;
-      } else if(window.scrollY <= threshold && lastState) {
-        mainBar.classList.add('main-bar-hidden'); lastState=false;
-      }
-    });
-    // Toggle overlay menu on click
-    if (toggle && mega) {
-      toggle.onclick = function() {
-        mega.classList.toggle('show');
-      };
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') mega.classList.remove('show');
-      });
-      mega.onclick = function(e) {
-        if (e.target.tagName === 'A' || e.target === mega) mega.classList.remove('show');
-      };
-    }
-  });
-  </script>
-  
   <body>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-    {% include dropdown_nav.html %}
     
     {{ content }}
 
@@ -61,5 +27,23 @@ layout: compress
 
     {% include scripts.html %}
 
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggle = document.querySelector('.menu-toggle');
+      var mega = document.getElementById('mega-menu');
+      if (toggle && mega) {
+        toggle.onclick = function() {
+          mega.classList.toggle('show');
+        };
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') mega.classList.remove('show');
+        });
+        mega.onclick = function(e) {
+          if (e.target.tagName === 'A' || e.target === mega) mega.classList.remove('show');
+        };
+      }
+    });
+    </script>
+    
   </body>
 </html>
