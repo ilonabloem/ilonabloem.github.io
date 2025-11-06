@@ -58,11 +58,24 @@
   margin: 0.5em 0 1em 0;
 }
 
+.intro-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.075em;
+  margin-bottom: 1.5rem; /* adds space below the title */
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
 .intro-links {
   color: #fff;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   flex-wrap: wrap;
