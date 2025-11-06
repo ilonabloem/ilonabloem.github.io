@@ -11,11 +11,27 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
+  <script>
+  window.addEventListener('scroll', function() {
+    var mainNav = document.getElementById('site-nav');
+    var dropdownNav = document.getElementById('dropdown-nav');
+    var hero = document.querySelector('.intro-hero');
+    if (hero && window.scrollY > hero.offsetHeight - 20) {
+      mainNav.classList.add('nav-hidden');
+      dropdownNav.classList.add('show');
+    } else {
+      mainNav.classList.remove('nav-hidden');
+      dropdownNav.classList.remove('show');
+    }
+  });
+  </script>
+  
   <body>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
+    {% include dropdown_nav.html %}
+    
     {{ content }}
 
     <div class="page__footer">
