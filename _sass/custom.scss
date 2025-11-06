@@ -107,7 +107,7 @@ body {
 }
 
 .nav-hidden { display: none; }
-.dropdown-nav {
+.dropdown_nav {
   display: none;
   position: fixed;
   top: 1.2em;
@@ -119,7 +119,7 @@ body {
   color: #fff;
   font-size: 1.05em;
 }
-.dropdown-nav.show { display: block; }
+.dropdown_nav.show { display: block; }
 
 .menu-toggle {
   background: none;
