@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 
 ---
-title: "Ilona Bloem"
+title: "About"
 permalink: /
 layout: page
 =======
@@ -17,6 +17,7 @@ redirect_from:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Research {#research}
 Summaries
 
@@ -24,6 +25,15 @@ Summaries
 Brief summary
 
 ## Publications {#publications}
+=======
+## About 
+Brief summary
+
+## Research 
+Summaries
+
+## Publications 
+>>>>>>> parent of 459ea12 (cleanup)
 You can find a full list of my publications see my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"} page
 
 
