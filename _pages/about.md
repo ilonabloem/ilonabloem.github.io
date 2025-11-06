@@ -11,6 +11,10 @@ I am a postdoctoral researcher working with [Serge Dumoulin](https://www.spinoza
 
 My past and current research focuses on the neural mechanisms underlying perception and cognition. Broadly, I am interested in how our perception of the world around us can be shaped by cognitive influences, such as attention and working memory. The methods I employ for my research span a wide range: **functional neuroimaging** (fMRI and intracranial EEG) to measure brain responses; **behavioral psychophysics** to measure human behavior; and, **computational modeling** to link brain and behavior to theoretical models. 
 
+## Scientific projects {#research}
+
+
+
 ## Publications {#publications}
 For a full list of my publications see my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"}
 
@@ -35,3 +39,6 @@ For a full list of my publications see my [Google Scholar profile](https://schol
 **Intensive tool-practice and skillfulness facilitate the extension of the human body schema beyond first order limitations**<br/>Rademaker RL, Wu D-A, Bloem IM, Sack AT (2014). *Neuropsychologia*.<br/>[Link to paper](https://www.sciencedirect.com/science/article/pii/S0028393214000232){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/Rademaker_etal_2014_NeuroPsy.pdf){:target="_blank"} 
 
 **Scrutinizing visual images: The role of gaze in mental imagery and memory**<br/>Laeng B, Bloem IM, D’Ascenzo S, & Tommasi L (2014). *Cognition*.<br/>[Link to paper](https://www.sciencedirect.com/science/article/pii/S0010027714000043){:target="_blank"} \| [pdf](http://ilonabloem.github.io/files/Laeng_etal_2014_Cognition.pdf){:target="_blank"}
+
+## CV {#CV}
+Download a recent version of my CV [here](http://ilonabloem.github.io/files/Bloem%20CV.pdf){:target="_blank"}
