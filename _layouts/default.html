@@ -12,27 +12,19 @@ layout: compress
   </head>
 
   <script>
-  window.addEventListener('scroll', function() {
-    var mainNav = document.getElementById('site-nav');
-    var dropdownNav = document.getElementById('dropdown-nav');
-    var hero = document.querySelector('.intro-hero');
-    if (hero && window.scrollY > hero.offsetHeight - 20) {
-      mainNav.classList.add('nav-hidden');
-      dropdownNav.classList.add('show');
-    } else {
-      mainNav.classList.remove('nav-hidden');
-      dropdownNav.classList.remove('show');
-    }
-  });
-  </script>
-
-  <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var toggle = document.querySelector('#dropdown-nav .menu-toggle');
-    var menu = document.querySelector('#dropdown-nav .menu');
-    if (toggle && menu) {
+    var toggle = document.querySelector('.menu-toggle');
+    var mega = document.getElementById('mega-menu');
+    if (toggle && mega) {
       toggle.onclick = function() {
-        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        mega.style.display = (mega.style.display === 'block') ? 'none' : 'block';
+      };
+      // Optional: close menu when clicking outside or pressing Esc
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') mega.style.display = 'none';
+      });
+      mega.onclick = function(e) {
+        if (e.target.tagName === 'A' || e.target === mega) mega.style.display = 'none';
       };
     }
   });
