@@ -106,21 +106,6 @@ body {
   overflow-x: hidden;
 }
 
-.nav-hidden { display: none; }
-.dropdown-nav {
-  display: none;
-  position: fixed;
-  top: 1.2em;
-  right: 1.2em;
-  background: rgba(60,60,60,0.9);
-  border-radius: 8px;
-  padding: 0.5em 1em;
-  z-index: 100;
-  color: #fff;
-  font-size: 1.05em;
-}
-.dropdown-nav.show { display: block; }
-
 .main-bar {
   width: 100vw;
   height: 60px;
@@ -167,4 +152,33 @@ body {
 
 .hamburger span {
   background: #232323;       /* Hamburger bars are dark */
+}
+
+.mega-menu {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(30,30,30,0.98);
+  color: #fff;
+  z-index: 300;
+  text-align: right;
+  padding-top: 120px;
+}
+.mega-menu.show {
+  display: block;
+}
+.mega-menu ul {
+  list-style: none;
+  margin: 0 3em;
+  padding: 0;
+}
+.mega-menu li {
+  margin: 2em 0;
+}
+.mega-menu a {
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
 }
