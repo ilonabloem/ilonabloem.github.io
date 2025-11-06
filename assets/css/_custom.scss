@@ -1,0 +1,90 @@
+/* Hero section - vertically and horizontally centered */
+.intro-hero {
+  background-image: url('/assets/images/brain-background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Overlay container - stacks children vertically */
+.intro-overlay {
+  display: flex;
+  flex-direction: column;  /* Stack vertically */
+  align-items: center;     /* Center horizontally */
+  text-align: center;
+  gap: 2em;                /* Space between h1 and nav */
+}
+
+/* Title styling */
+.intro-title {
+  margin: 0;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Nav styling */
+.intro-links {
+  text-align: center;
+  margin: 0;
+}
+
+.intro-links a {
+  padding: 0 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.intro-links a:hover {
+  opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 2em;
+  }
+  
+  .intro-links {
+    font-size: 0.9em;
+  }
+}
+
+/* Remove masthead borders and reduce height */
+.masthead {
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 0.5em 0 !important;
+}
+
+.masthead__inner-wrap {
+  border: none !important;
+  border-bottom: none !important;
+  padding: 0.5em 0 !important;
+}
+
+.masthead__menu {
+  border: none !important;
+  padding: 0.5em 0 !important;
+}
+
+.greedy-nav {
+  border: none !important;
+  border-bottom: none !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.greedy-nav ul {
+  border: none !important;
+}
+
+.masthead__menu-item {
+  border: none !important;
+}
+
