@@ -184,7 +184,8 @@
   display: flex;
   justify-content: flex-end; // Align children to the right
   align-items: center;       // Center vertically
-
+  padding-right: 2rem;      // Adds a right-side buffer
+   
   a {
     display: block;
     margin: 0 1rem;
