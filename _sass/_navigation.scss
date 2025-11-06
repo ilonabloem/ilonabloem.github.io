@@ -449,3 +449,9 @@
 body {
   padding-top: 70px;
 }
+
+h2:target, h3:target, h4:target {
+  padding-top: 80px;    // match or exceed your nav bar's height
+  margin-top: -80px;
+  display: block;
+}
