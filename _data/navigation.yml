@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Biosketch"
-    url: "/#biosketch"
-
   - title: "Research"
     url: "/#research"
+
+  - title: "Biosketch"
+    url: "/#biosketch"
 
   - title: "Publications"
     url: "/#publications"
