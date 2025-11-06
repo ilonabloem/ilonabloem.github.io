@@ -7,6 +7,15 @@
    ========================================================================== */
 
 .sidebar {
+  position: fixed;       // Makes the sidebar stay put while scrolling
+  top: 70px;             // Adjust this number to your nav bar's height
+  left: 0;               // If your sidebar is left aligned (use `right: 0;` for right aligned)
+  z-index: 999;
+  width: 300px;          // Change to your sidebar’s actual width
+  height: calc(100vh - 70px); // Uses all vertical space minus nav bar
+  overflow-y: auto;      // Allows extra sidebar content to scroll
+  background: #fff;      // Matches most clean site backgrounds
+   
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
