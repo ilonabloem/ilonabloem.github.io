@@ -1,9 +1,24 @@
+/* Fullscreen hero + parent container overrides for About/Home page */
+#main,
+.page__inner-wrap,
+.page__content {
+  max-width: 100vw !important;
+  width: 100vw !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
 /* HERO SECTION FULL WIDTH FIX */
 .intro-hero {
   width: 100vw !important;
   max-width: 100vw !important;
   min-height: 100vh;
   margin-left: calc(50% - 50vw) !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
   margin: 0; 
   background-image: url('/assets/images/brain-background.jpg');
   background-size: cover;
