@@ -1,11 +1,10 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
+Ilona M. Bloem, PhD:
+  name        : "Ilona M. Bloem, PhD"
+  uri         : "https://ilonabloem.github.io"
+  bio         : "Cognitive neuroscientist interested in perception and cognition"
+  avatar      : "ilonabloem.jpg"
   twitter     : "name"
   google_plus : "Name"
 
