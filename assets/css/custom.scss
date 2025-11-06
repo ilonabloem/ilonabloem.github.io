@@ -1,3 +1,21 @@
+.section-page {
+  background: #fff;
+  margin: 2em 0;
+  padding: 2em 1em;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .section-page {
+    padding: 1em 0.2em;
+    margin: 1em 0;
+  }
+}
+
 .intro-hero {
   background-image: url('/assets/images/brain-background.jpg');
   background-size: cover;
