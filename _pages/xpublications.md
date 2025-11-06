@@ -1,9 +1,9 @@
 ---
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+#layout: archive
+#title: "Publications"
+#permalink: /publications/
+#author_profile: true
+#---
 You can also find my publications on my [Google Scholar profile](https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en){:target="_blank"}
 
 *Denotes equal author contributions
