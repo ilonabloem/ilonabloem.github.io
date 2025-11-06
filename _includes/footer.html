@@ -22,3 +22,17 @@
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+<script>
+document.querySelectorAll('a[href*="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    var href = this.getAttribute('href');
+    // Only apply to local in-page links:
+    if (href.startsWith('/about/#') && this.pathname === window.location.pathname) {
+      e.preventDefault();
+      var id = href.split('#')[1];
+      document.querySelector('a[name="' + id + '"]').scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+</script>
