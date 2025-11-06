@@ -1,4 +1,5 @@
 # main links links
+<<<<<<< HEAD
 - title: "Research"
   url: "/#research"
 
@@ -8,5 +9,13 @@
 - title: "Publications"
   url: "/#publications"
 
+=======
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "CV"
+    url: /files/Bloem CV.pdf
+>>>>>>> parent of 453cd41 (create scrolling sections)
 
 
