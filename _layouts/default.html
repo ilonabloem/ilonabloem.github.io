@@ -16,8 +16,21 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
     
-    {{ content }}
-
+    <section class="intro-hero">
+      <div class="intro-overlay">
+        <nav class="intro-links">
+          <a href="#about">ABOUT ME</a> |
+          <a href="#research">SCIENTIFIC PROJECTS</a> |
+          <a href="#publications">PUBLICATIONS</a> |
+          <a href="#cv">CV</a>
+        </nav>    
+      </div>
+    </section>
+    
+    <main class="main-content">
+      {{ content }}
+    </main>
+    
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
@@ -44,6 +57,7 @@ layout: compress
       }
     });
     </script>
-    
+
+
   </body>
 </html>
