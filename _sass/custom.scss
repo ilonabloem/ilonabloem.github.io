@@ -1,7 +1,7 @@
 
 .intro-hero {
   min-height: 60vh;
-  width: 100%;
+  width: 100vw;
   background-image: url('/assets/images/brain-background.jpg');
   background-size: cover;
   background-position: center;
@@ -181,4 +181,42 @@ body {
   color: #fff;
   font-size: 2em;
   text-decoration: none;
+}
+
+/* Key overrides to remove sidebar space and force content full-width */
+.page__content,
+.page__inner-wrap,
+#main,
+.content-wrapper,
+.wrapper,
+.container {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  grid-template-columns: none !important;
+  float: none !important;
+}
+
+/* Remove any grid or flex row leftover from sidebar layout */
+.page__content,
+.page__inner-wrap,
+.wrapper,
+.container {
+  display: block !important;
+}
+
+@media (min-width: 700px) {
+  .page__content,
+  .page__inner-wrap,
+  #main,
+  .content-wrapper,
+  .wrapper,
+  .container {
+    width: 100vw !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
 }
