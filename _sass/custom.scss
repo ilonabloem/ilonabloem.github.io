@@ -16,10 +16,11 @@
   width: 100vw !important;
   max-width: 100vw !important;
   min-height: 100vh;
-  background-image: url('/assets/images/brain-background.jpg');
+  background-image: url(assets/images/brain-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; // ensures the background stays fixed while scrolling
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,13 +53,19 @@
   color: #fff;
   font-size: 3rem;
   font-weight: bold;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   letter-spacing: 0.075em;
-  margin-bottom: 1.5rem; /* adds space below the title */
+  margin-bottom: 1.5rem;
   text-align: center;
   width: 100%;
   display: block;
+  position: fixed;    // Add this line
+  top: 30vh;          // Adjust as needed for vertical placement
+  left: 0;
+  right: 0;
+  z-index: 10;        // Make sure it appears above the background
 }
+
 
 .intro-links {
   color: #fff;
@@ -69,6 +76,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   flex-wrap: wrap;
+  position: fixed;
 }
 
 .intro-links a {
