@@ -47,7 +47,7 @@ redirect_from:
     <b>How does orientation-tuned normalization spread across the visual field?</b><br>
     Klímová M, Bloem IM, Ling S (2025). <i>Journal of Neurophysiology</i>. <br>
     <a href="https://journals.physiology.org/doi/full/10.1152/jn.00224.2024" target="_blank">Link to paper</a> |
-    <a href="http://ilonabloem.github.io/files/klímová-et-al-2025.pdf" target="_blank">pdf</a> |
+    <a href="http://ilonabloem.github.io/files/klimova-et-al-2025.pdf" target="_blank">pdf</a> |
     <a href="https://osf.io/6z5j2" target="_blank">data and code</a>
   </p>
 
@@ -63,7 +63,7 @@ redirect_from:
     <b>Attention preserves the selectivity of feature-tuned normalization</b><br>
     Klímová M, Bloem IM, Ling S (2023). <i>Journal of Neurophysiology</i>.<br>
     <a href="https://journals.physiology.org/doi/full/10.1152/jn.00194.2023" target="_blank">Link to paper</a> |
-    <a href="http://ilonabloem.github.io/files/klímová-et-al-2023-attention-preserves-the-selectivity-of-feature-tuned-normalization.pdf" target="_blank">pdf</a> |
+    <a href="http://ilonabloem.github.io/files/klimova-et-al-2023-attention-preserves-the-selectivity-of-feature-tuned-normalization.pdf" target="_blank">pdf</a> |
     <a href="https://osf.io/6tq8h/" target="_blank">data and code</a>
   </p>
 
