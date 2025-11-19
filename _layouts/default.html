@@ -39,6 +39,15 @@ layout: compress
       </footer>
     </div>
 
+    <!-- Place the hamburger menu markup here -->
+    <nav id="mega-menu" class="mega-menu">
+      <ul>
+        {% for item in site.data.navigation.main %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    
     {% include scripts.html %}
 
     <script>

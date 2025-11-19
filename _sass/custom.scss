@@ -23,10 +23,10 @@
   background-attachment: fixed; // ensures the background stays fixed while scrolling
   display: flex;
   align-items: center;
+  flex-direction: column;       /* Stacks title and links vertically */
   justify-content: center;
   position: fixed;
-  top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .intro-overlay {
@@ -42,7 +42,7 @@
 .main-content {
   position: relative;
   z-index: 3;
-  margin-top: 100vh; /* Offset so content starts below hero */
+  margin-top: 60px; /* Offset so content starts below hero */
   background: #fff;  /* Or your standard page background */
   box-sizing: border-box;
   width: 100vw;
@@ -57,15 +57,11 @@
   letter-spacing: 0.075em;
   margin-bottom: 1.5rem;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   display: block;
-  position: fixed;    // Add this line
-  top: 30vh;          // Adjust as needed for vertical placement
-  left: 0;
-  right: 0;
+  position: relative;    // Add this line
   z-index: 10;        // Make sure it appears above the background
 }
-
 
 .intro-links {
   color: #fff;
@@ -76,7 +72,6 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   flex-wrap: wrap;
-  position: fixed;
 }
 
 .intro-links a {
@@ -96,9 +91,9 @@ body {
   overflow-x: hidden;
 }
 
-.main-bar {
+.masthead {
   width: 100vw;
-  height: 60px;
+  height: 1em;
   background: #fff;
   color: #232323;
   display: flex;
@@ -107,10 +102,10 @@ body {
   padding: 0 2em;
   position: fixed;
   transition: top 0.3s;
-  top: 0; left: 0; z-index: 2;
+  top: 0; left: 0; z-index: 1000;
   border-bottom: 1px solid #eee;
 }
-.main-bar-hidden { top: -80px }
+.masthead-hidden { top: -100vw; transition: top 0.3s }
 .site-title { font-size: 1.6em; font-weight: bold; letter-spacing: 0.06em; color: #232323 }
 .menu-toggle { background: none; border: none; color: #232323; font-family: inherit; font-size: 1.1em; display: flex; align-items: center; gap: 0.6em; cursor: pointer }
 .menu-label { font-weight: bold; letter-spacing: 0.12em; color: #232323 }
@@ -123,8 +118,8 @@ body {
   width: 100vw;
   height: 100vh;
   background: rgba(30,30,30,0.98);
-  color: #fff;
-  z-index: 300;
+  color: #bf5454;
+  z-index: 2000;
   text-align: right;
   padding-top: 120px;
 }
@@ -132,3 +127,31 @@ body {
 .mega-menu ul { list-style: none; margin: 0 3em; padding: 0 }
 .mega-menu li { margin: 2em 0 }
 .mega-menu a { color: #fff; font-size: 2em; text-decoration: none }
+
+.section-white {
+  background-color: #ffffff;
+  padding: 0% 5%;
+  align-items: center;   // Vertically center content
+  display: block;
+  min-height: 200px;        // Ensure the section is at least 400px tall
+}
+
+.section-even {
+  background-color: #ffffff;
+  padding: 2% 5%;
+  align-items: center;   // Vertically center content
+  display: block;
+  min-height: 100px;        // Ensure the section is at least 200px tall
+}
+
+.section-oneven {
+  background-color: #efefef;
+  padding: 2% 5%;
+  align-items: center;   // Vertically center content
+  display: block;
+  min-height: 100px;        // Ensure the section is at least 200px tall
+}
+
+.anchor-target {
+  scroll-margin-top: 500px;  // Adjust to match your header height
+}
