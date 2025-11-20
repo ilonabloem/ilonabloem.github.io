@@ -167,5 +167,21 @@ redirect_from:
   Download a recent version of my CV 
   <a href="http://ilonabloem.github.io/files/Bloem%20CV.pdf" target="_blank">here</a>
 
-</div> 
+</div>
+
+<div class="section-white">
+  <a id="social" class="anchor-target"></a>
+  <h2>CONNECT WITH ME</h2>
+  <div class="social-icons" style="text-align: center;">
+    <a href="https://github.com/your-github-username" target="_blank" style="margin: 0 10px;">
+      <img src="/images/github-icon.png" alt="GitHub" style="width: 40px; height: 40px;">
+    </a>
+    <a href="https://orcid.org/your-orcid-id" target="_blank" style="margin: 0 10px;">
+      <img src="/images/orcid-icon.png" alt="ORCID" style="width: 40px; height: 40px;">
+    </a>
+    <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" style="margin: 0 10px;">
+      <img src="/images/linkedin-icon.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+    </a>
+  </div>
+</div>
 
