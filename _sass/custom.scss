@@ -332,7 +332,7 @@ body {
   border-radius: 8px; /* Keeps the rounded corners */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .section-projects > div {
     flex: 1 1 100%; /* On narrow screens, each project takes up the full width */
     height: auto;         /* Let them expand naturally on narrow screens */
