@@ -8,7 +8,10 @@ redirect_from:
 
 <div class="section-white">
 
-  <h2 id="about" class="anchor-target">ABOUT ME</h2>
+ 
+  <a id="about" class="anchor-target"></a>
+  <br>
+  <h2>ABOUT ME</h2>
 
   <img src="/images/ilonabloem.jpg" alt="Alt text" style="float: right; margin-left: 20px; max-width: 200px;">
  
@@ -17,19 +20,44 @@ redirect_from:
   My past and current research focuses on how the brain enables us to perceive and understand the world. I am especially interested in how perception is shaped by cognitive processes—such as attention and working memory—and how these internal factors interact with fundamental neural mechanisms to change the way we experience what’s around us. To study these mechanisms, I use a combination of functional neuroimaging (such as fMRI and intracranial EEG) to observe brain activity, behavioral experiments to measure responses and performance, and computational modeling to connect what happens in the brain to theories about how we recognize and interpret our environment.<br><br>
 
   I am currently a postdoctoral researcher working with <a href="https://www.spinozacentre.nl/dumoulin/" target="_blank">Serge Dumoulin</a> at the Spinoza Centre in Amsterdam and <a href="https://www.jeheelab.org/" target="_blank">Janneke Jehee</a>  at the Donders Institute. I obtained my PhD at Boston University, where I worked in the lab of <a href="https://sites.bu.edu/vision/" target="_blank">Sam Ling</a>, and continued with postdoctoral research with <a href="https://wp.nyu.edu/landylab/" target="_blank">Mike Landy</a> and <a href="https://wp.nyu.edu/winawerlab/" target="_blank">Jon Winawer</a> at New York University.
+  <br><br>
 
 </div> 
 
 <div class="section-white">
 
-  <h2 id="research" class="anchor-target">SCIENTIFIC PROJECTS</h2>
-
+  <a id="research" class="anchor-target"></a>
+  
+  <h2>SCIENTIFIC PROJECTS</h2>
+  
+  <div class="section-projects">
+    <div>
+      <img src="/images/attention-field.png" alt="Estimate the attentional field" style="height: 100%; width: auto; border-radius: 8px;">
+      <h3>Estimating the attention window with fMRI</h3>
+      <p>This project shows that people can not only focus their attention on a single spot, but also widen or narrow the area they pay attention to in their visual field, much like adjusting a spotlight or zoom lens. We analyzed brain activity with fMRI while people changed the size and location of their attentional focus, and developed a method to track how and where attention is distributed in the brain. This reveals that our brains dynamically adapt the “width” of attention to fit the task at hand.<br><br><br></p>
+    </div>
+    <div>
+      <img src="/images/tactile-dynamics.png" alt="Tactile temporal dynamics" style="height: 100%; width: auto; border-radius: 8px;">
+      <h3>Temporal dynamics of tactile responses</h3>
+      <p>This project investigates how tactile perception adapts to repeated or sustained stimuli over time. We find that both touch and vision use similar neural principles to process changing information. Using brain recordings (iEEG) and neuroimaging (fMRI), we find that a computational model that takes into account the temporal history accurately predicts how the somatosensory cortex responds to repeated tactile stimulation, helping explain how sensation adapts and recovers in the brain. <br>
+       This project was recently presented at Society for Neuroscience | 
+        <a href="http://ilonabloem.github.io/files/LiBloem_etal_SFN.pdf" target="_blank">[pdf]</a>
+      </p>
+    </div>
+    <div>
+      <img src="/images/spatial-precision.png" alt="Spatial precision" style="height: 100%; width: auto; border-radius: 8px;">
+      <h3>Mapping spatial precision in the visual field</h3>
+      <p>This project investigates how accurately people can report locations that are always the same distance from where they are looking. Using both behavioral experiments and fMRI, we link the precision of these spatial judgments with how the brain represents those locations.. <br>
+      This project was recently presented at Vision Sciences Society | 
+        <a href="http://ilonabloem.github.io/files/BloemJeheeDumoulin_VSS2024.pdf" target="_blank">[pdf]</a><br><br><br><br><br><br><br>
+        </p>
+    </div>
+  </div>
 </div> 
 
 <div class="section-white">
-
-  <h2 id="publications" class="anchor-target">PUBLICATIONS</h2>
-
+  <a id="publications" class="anchor-target"></a> 
+  <h2>PUBLICATIONS</h2>
   <p>
     For a full list of my publications see my
     <a href="https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en" target="_blank">Google Scholar profile</a>
@@ -132,7 +160,9 @@ redirect_from:
 
 <div class="section-white">
 
-  <h2 id="cv" class="anchor-target">CV</h2>
+  <a id="cv" class="anchor-target"></a>
+
+  <h2>CV</h2>
 
   Download a recent version of my CV 
   <a href="http://ilonabloem.github.io/files/Bloem%20CV.pdf" target="_blank">here</a>
