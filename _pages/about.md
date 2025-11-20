@@ -34,7 +34,7 @@ redirect_from:
     <div>
       <img src="/images/attention-field.png" alt="Estimate the attentional field" style="height: 100%; width: auto; border-radius: 8px;">
       <h3>Estimating the attention window with fMRI</h3>
-      <p>This project shows that people can not only focus their attention on a single spot, but also widen or narrow the area they pay attention to in their visual field, much like adjusting a spotlight or zoom lens. We analyzed brain activity with fMRI while people changed the size and location of their attentional focus, and developed a method to track how and where attention is distributed in the brain. This reveals that our brains dynamically adapt the “width” of attention to fit the task at hand.<br><br><br></p>
+      <p>This project shows that people can not only focus their attention on a single spot, but also widen or narrow the area they pay attention to in their visual field, much like adjusting a spotlight or zoom lens. We analyzed brain activity with fMRI while people changed the size and location of their attentional focus, and developed a method to track how and where attention is distributed in the brain. This reveals that our brains dynamically adapt the “width” of attention to fit the task at hand.</p>
     </div>
     <div>
       <img src="/images/tactile-dynamics.png" alt="Tactile temporal dynamics" style="height: 100%; width: auto; border-radius: 8px;">
@@ -47,9 +47,9 @@ redirect_from:
     <div>
       <img src="/images/spatial-precision.png" alt="Spatial precision" style="height: 100%; width: auto; border-radius: 8px;">
       <h3>Mapping spatial precision in the visual field</h3>
-      <p>This project investigates how accurately people can report locations that are always the same distance from where they are looking. Using both behavioral experiments and fMRI, we link the precision of these spatial judgments with how the brain represents those locations.. <br>
+      <p>This project investigates how precise people can report locations that are always the same distance from where they are looking. Using both behavioral experiments and fMRI, we link the precision of these spatial judgments with how the brain represents those locations. <br>
       This project was recently presented at Vision Sciences Society | 
-        <a href="http://ilonabloem.github.io/files/BloemJeheeDumoulin_VSS2024.pdf" target="_blank">[pdf]</a><br><br><br><br><br><br><br>
+        <a href="http://ilonabloem.github.io/files/BloemJeheeDumoulin_VSS2024.pdf" target="_blank">[pdf]</a>
         </p>
     </div>
   </div>
@@ -171,17 +171,21 @@ redirect_from:
 
 <div class="section-white">
   <a id="social" class="anchor-target"></a>
-  <h2>CONNECT WITH ME</h2>
   <div class="social-icons" style="text-align: center;">
-    <a href="https://github.com/your-github-username" target="_blank" style="margin: 0 10px;">
-      <img src="/images/github-icon.png" alt="GitHub" style="width: 40px; height: 40px;">
+    <a href="{{ site.author.googlescholar }}" target="_blank" style="margin: 0 10px;">
+      <i class="fas fa-graduation-cap scholar-icon" aria-hidden="true"></i>
     </a>
-    <a href="https://orcid.org/your-orcid-id" target="_blank" style="margin: 0 10px;">
-      <img src="/images/orcid-icon.png" alt="ORCID" style="width: 40px; height: 40px;">
+    <a href="https://github.com/{{ site.author.github }}" target="_blank" style="margin: 0 10px;">
+      <i class="fab fa-github fa-2x" aria-hidden="true"></i>
     </a>
-    <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" style="margin: 0 10px;">
-      <img src="/images/linkedin-icon.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+    <a href="{{ site.author.orcid }}" target="_blank" style="margin: 0 10px;">
+      <i class="ai ai-orcid-square orcid-icon" aria-hidden="true"></i>
     </a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" style="margin: 0 10px;">
+      <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+    </a>
+    <a href="{{ site.author.osf }}" target="_blank" style="margin: 0 10px;">
+      <i class="ai ai-osf-square osf-icon" aria-hidden="true"></i>
+    </a>  
   </div>
 </div>
-

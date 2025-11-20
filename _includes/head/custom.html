@@ -1,5 +1,8 @@
 {% include base_path %}
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.6/css/academicons.min.css">
+
 <!-- Custom CSS and JavaScript for Ilona Bloem website -->
 
 <style>
@@ -23,7 +26,7 @@ html, body { overflow-x: hidden !important; max-width: 100vw !important; margin:
   margin: 0 !important;
   transition: all 0.3s ease !important;
 }
- */
+
 .masthead__inner-wrap {
   max-width: 100% !important;
   padding: 0 1.5em !important;
@@ -32,12 +35,29 @@ html, body { overflow-x: hidden !important; max-width: 100vw !important; margin:
   align-items: center !important;
 }
 
-/* Add padding to body to prevent content from hiding under fixed masthead */
+/* Add padding to body to prevent content from hiding under fixed masthead 
 body {
   padding-top: 60px !important;
 }
+*/
 
-/* ===== STYLISH HAMBURGER BUTTON - RIGHT ALIGNED ===== */
+/* Content overflow fix */
+.main, .main-content, main, #main, .page__inner-wrap, .page, .page__content {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.page { padding: 1em !important; margin: 0 !important; float: none !important; }
+.page__content { padding: 0 1em 0 1em !important; }
+
+.page__content p, .page__content div, .page__content li, .page__content h1, .page__content h2, .page__content h3 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* ===== STYLISH HAMBURGER BUTTON - RIGHT ALIGNED ===== 
 
 .greedy-nav {
   display: flex !important;
@@ -46,7 +66,7 @@ body {
   width: 100% !important;
 }
 
-/* Hamburger button - smaller and stylish */
+Hamburger button - smaller and stylish 
 .greedy-nav__toggle {
   display: block !important;
   width: 32px !important;
@@ -56,7 +76,7 @@ body {
   cursor: pointer !important;
   position: relative !important;
   padding: 6px !important;
-  margin-left: auto !important; /* Push to right */
+  margin-left: auto !important; /* Push to right 
   border-radius: 6px !important;
   transition: all 0.3s ease !important;
 }
@@ -69,7 +89,7 @@ body {
   background: rgba(0, 0, 0, 0.1) !important;
 }
 
-/* Hamburger icon lines - sleek and minimal */
+/* Hamburger icon lines - sleek and minimal 
 .greedy-nav__toggle .navicon,
 .greedy-nav__toggle .navicon::before,
 .greedy-nav__toggle .navicon::after {
@@ -97,7 +117,7 @@ body {
   top: 6px !important;
 }
 
-/* Smooth X animation when open */
+/* Smooth X animation when open 
 .greedy-nav__toggle[aria-expanded="true"] .navicon {
   background: transparent !important;
 }
@@ -112,12 +132,12 @@ body {
   top: 0 !important;
 }
 
-/* Hide visible links */
+/* Hide visible links 
 .greedy-nav .visible-links {
   display: none !important;
 }
 
-/* Dropdown menu - elegant styling */
+/* Dropdown menu - elegant styling 
 .greedy-nav .hidden-links {
   position: absolute !important;
   top: calc(100% + 0.75em) !important;
@@ -171,6 +191,7 @@ body {
 .greedy-nav .hidden-links li:last-child a {
   border-radius: 0 0 8px 8px !important;
 }
+*/
 
 /* Hero section - adjust for fixed header 
 .intro-hero {
@@ -223,7 +244,7 @@ body {
 .intro-links a:hover {
   opacity: 0.7;
 }
-*/
+
 /* ===== REMOVE EXTRA WHITE SPACE AFTER HERO ===== */
 .intro-hero + *,
 .intro-hero ~ * {
@@ -243,23 +264,9 @@ body {
 }
 
 
-/* Content overflow fix */
-.main, .main-content, main, #main, .page__inner-wrap, .page, .page__content {
-  width: 100% !important;
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-}
 
-.page { padding: 1em !important; margin: 0 !important; float: none !important; }
-.page__content { padding: 0 1em 0 0 !important; }
 
-.page__content p, .page__content div, .page__content li, .page__content h1, .page__content h2, .page__content h3 {
-  max-width: 100% !important;
-  word-wrap: break-word !important;
-  overflow-wrap: break-word !important;
-}
-
-/* Sidebar */
+/* Sidebar 
 @media (min-width: 64em) {
   .layout--single .page { 
     width: calc(100% - 300px) !important; 
@@ -268,9 +275,10 @@ body {
   }
   .sidebar.sticky { 
     width: 280px !important;
-    top: 80px !important; /* Account for fixed header */
+    top: 80px !important; /* Account for fixed header 
   }
 }
+*/
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -300,6 +308,8 @@ body {
     padding: 0.5em 0 !important;
   }
 }
+
+
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
@@ -386,4 +396,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+
 
