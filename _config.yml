@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : Ilona Bloem
 title_separator          : "-"
 name                     : 
-description              : 
+description              : "Cognitive neuroscientist studying canonical neural computations in perception and cognition."
 url                      : https://ilonabloem.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ilonabloem/ilonabloem.github.io"
