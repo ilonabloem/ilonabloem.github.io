@@ -32,42 +32,14 @@ layout: compress
       {{ content }}
     </main>
     
-    <div class="page__footer">
+        <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
 
-    <!-- Place the hamburger menu markup here -->
-    <nav id="mega-menu" class="mega-menu">
-      <ul>
-        {% for item in site.data.navigation.main %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-    
     {% include scripts.html %}
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var toggle = document.querySelector('.menu-toggle');
-      var mega = document.getElementById('mega-menu');
-      if (toggle && mega) {
-        toggle.onclick = function() {
-          mega.classList.toggle('show');
-        };
-        document.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape') mega.classList.remove('show');
-        });
-        mega.onclick = function(e) {
-          if (e.target.tagName === 'A' || e.target === mega) mega.classList.remove('show');
-        };
-      }
-    });
-    </script>
-
 
   </body>
 </html>
