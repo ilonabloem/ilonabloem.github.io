@@ -17,9 +17,9 @@ redirect_from:
  
   What we see isn’t simply a picture of the outside world. It’s created by our brains through intricate processes that turn patterns of light first sensed by our eyes into meaningful experiences. This process relies heavily on context: what is in the surrounding environment, what happened in the recent past, and internal goals all jointly shape visual experience. Context includes all these dimensions and dynamically shapes how we perceive and interpret the world.<br><br>
   
-  My past and current research focuses on how the brain enables us to perceive and understand the world. I am especially interested in how perception is shaped by cognitive processes—such as attention and working memory—and how these internal factors interact with fundamental neural mechanisms to change the way we experience what’s around us. To study these mechanisms, I use a combination of functional neuroimaging (such as fMRI and intracranial EEG) to observe brain activity, behavioral experiments to measure responses and performance, and computational modeling to connect what happens in the brain to theories about how we recognize and interpret our environment.<br><br>
+  My research asks how the brain transforms sensory input into stable yet flexible perceptual and cognitive representations, and how processes such as attention and working memory reshape them. I identify canonical neural computations and test whether they generalize across brain areas, sensory modalities, species, and levels of measurement. To do so, I combine computational modeling with psychophysics, eye tracking, intracranial and multi-unit electrophysiology, and (ultra-high field) fMRI.<br><br>
 
-  I am currently a postdoctoral researcher working with <a href="https://www.spinozacentre.nl/dumoulin/" target="_blank">Serge Dumoulin</a> at the Spinoza Centre in Amsterdam and <a href="https://www.jeheelab.org/" target="_blank">Janneke Jehee</a>  at the Donders Institute. I obtained my PhD at Boston University, where I worked in the lab of <a href="https://sites.bu.edu/vision/" target="_blank">Sam Ling</a>, and continued with postdoctoral research with <a href="https://wp.nyu.edu/landylab/" target="_blank">Mike Landy</a> and <a href="https://wp.nyu.edu/winawerlab/" target="_blank">Jon Winawer</a> at New York University.
+  I am currently a postdoctoral researcher working with <a href="https://www.spinozacentre.nl/dumoulin/" target="_blank">Serge Dumoulin</a> at the Spinoza Centre in Amsterdam and <a href="https://www.jeheelab.org/" target="_blank">Janneke Jehee</a>  at the Donders Institute. Previously, I was a postdoc with <a href="https://wp.nyu.edu/landylab/" target="_blank">Mike Landy</a> and <a href="https://wp.nyu.edu/winawerlab/" target="_blank">Jon Winawer</a> at New York University, and I received my PhD with <a href="https://sites.bu.edu/vision/" target="_blank">Sam Ling</a> at Boston University.
   <br><br>
 
 </div> 
@@ -34,21 +34,25 @@ redirect_from:
     <div>
       <img src="/images/attention-field.png" alt="Estimate the attentional field" style="height: 100%; width: auto; border-radius: 8px;">
       <h3>Estimating the attention window with fMRI</h3>
-      <p>This project shows that people can not only focus their attention on a single spot, but also widen or narrow the area they pay attention to in their visual field, much like adjusting a spotlight or zoom lens. We analyzed brain activity with fMRI while people changed the size and location of their attentional focus, and developed a method to track how and where attention is distributed in the brain. This reveals that our brains dynamically adapt the “width” of attention to fit the task at hand.</p>
+      <p>This project shows that people can not only focus their attention on a single spot, but also widen or narrow the area they pay attention to in their visual field, much like adjusting a spotlight or zoom lens. We analyzed brain activity with fMRI while people changed the size and location of their attentional focus, and developed a method to track how and where attention is distributed in the brain. This reveals that our brains dynamically adapt the “width” of attention to fit the task at hand.
+      Published in <i>eLife</i> (2026) | 
+                <a href="https://elifesciences.org/articles/104222" target="_blank">[paper]</a> | 
+                <a href="http://ilonabloem.github.io/files/BloemBakst_eLife.pdf" target="_blank">[PDF]</a>
+      </p>
     </div>
     <div>
       <img src="/images/tactile-dynamics.png" alt="Tactile temporal dynamics" style="height: 100%; width: auto; border-radius: 8px;">
       <h3>Temporal dynamics of tactile responses</h3>
       <p>This project investigates how tactile perception adapts to repeated or sustained stimuli over time. We find that both touch and vision use similar neural principles to process changing information. Using brain recordings (iEEG) and neuroimaging (fMRI), we find that a computational model that takes into account the temporal history accurately predicts how the somatosensory cortex responds to repeated tactile stimulation, helping explain how sensation adapts and recovers in the brain. <br>
-       This project was recently presented at Society for Neuroscience | 
-        <a href="http://ilonabloem.github.io/files/LiBloem_etal_SFN.pdf" target="_blank">[pdf]</a>
+       Published in <i>Journal of Neuroscience</i> (2026) | 
+                <a href="https://doi.org/10.1523/JNEUROSCI.0782-26.2026" target="_blank">[paper]</a>
       </p>
     </div>
     <div>
       <img src="/images/spatial-precision.png" alt="Spatial precision" style="height: 100%; width: auto; border-radius: 8px;">
       <h3>Mapping spatial precision in the visual field</h3>
       <p>This project investigates how precise people can report locations that are always the same distance from where they are looking. Using both behavioral experiments and fMRI, we link the precision of these spatial judgments with how the brain represents those locations. <br>
-      This project was recently presented at Vision Sciences Society | 
+      Presented at Vision Sciences Society 2024 | 
         <a href="http://ilonabloem.github.io/files/BloemJeheeDumoulin_VSS2024.pdf" target="_blank">[pdf]</a>
         </p>
     </div>
@@ -62,7 +66,22 @@ redirect_from:
     For a full list of my publications see my
     <a href="https://scholar.google.com/citations?user=y15xf2wAAAAJ&hl=en" target="_blank">Google Scholar profile</a>
   </p>
+  
+  <p class="section-oneven">
+    <b>A delayed normalization model explains temporal dynamics in human somatosensory cortex</b><br>
+    Bloem* IM, Li* L, Badde S, Schellekens W, … Landy MS, Winawer J (2026). <i>Journal of Neuroscience</i>. [*shared co-first author]<br>
+    <a href="https://doi.org/10.1523/JNEUROSCI.0782-26.2026" target="_blank">Link to paper</a> |
+    <a href="https://osf.io/f6tzr" target="_blank">data and code</a>
+  </p>
 
+  <p class="section-even">
+    <b>Model-based estimation of the population contrast response function in human visual cortex</b><br>
+    Vinke LN, Ling* S, Bloem* IM (2026). <i>Journal of Vision</i>. [* shared co-senior author]<br>
+    <a href="https://jov.arvojournals.org/article.aspx?articleid=2818580" target="_blank">Link to paper</a> |
+    <a href="http://ilonabloem.github.io/files/VinkeLingBloem_JVision.pdf" target="_blank">pdf</a> |
+    <a href="https://osf.io/p9q3u" target="_blank">data and code</a>
+  </p>
+  
   <p class="section-oneven">
     <b>Dynamic estimation of the attentional field from visual cortical activity</b><br>
     Bloem* IM, Bakst* L, McGuire JT, Ling S (2025). <i>eLife</i>. [*shared co-first author]<br>
