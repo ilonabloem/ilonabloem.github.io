@@ -69,7 +69,7 @@ redirect_from:
   
   <p class="section-oneven">
     <b>A delayed normalization model explains temporal dynamics in human somatosensory cortex</b><br>
-    Bloem* IM, Li* L, Badde S, Schellekens W, … Landy MS, Winawer J (2026). <i>Journal of Neuroscience</i>. [*shared co-first author]<br>
+    Bloem* IM, Li* L, Badde S, Groen IIA, … Landy MS, Winawer J (2026). <i>Journal of Neuroscience</i>. [*shared co-first author]<br>
     <a href="https://doi.org/10.1523/JNEUROSCI.0782-26.2026" target="_blank">Link to paper</a> |
     <a href="https://osf.io/f6tzr" target="_blank">data and code</a>
   </p>
