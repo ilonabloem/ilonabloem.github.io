@@ -1,18 +1,5 @@
 {% include base_path %}
 
-<div class="masthead" style="border: none !important; border-bottom: none !important; box-shadow: none !important;">
-    <div class="masthead__menu">
-    
-     <nav id="site-nav" class="greedy-nav nav-hidden">
-          <button class="menu-toggle">
-            <span class="hamburger"></span>
-          </button>
-          <ul class="visible-links">
-            {% for item in site.data.navigation.main %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-          <ul class="hidden-links hidden"></ul>
-    </nav>
-    </div>
-</div>
+{% for item in site.data.navigation.main %}
+{{ item.title }}
+{% endfor %}
