@@ -35,7 +35,7 @@ redirect_from:
       <img src="/images/attention-field.png" alt="Estimate the attentional field" style="height: 100%; width: auto; border-radius: 8px;">
       <h3>Estimating the attention window with fMRI</h3>
       <p>This project shows that people can not only focus their attention on a single spot, but also widen or narrow the area they pay attention to in their visual field, much like adjusting a spotlight or zoom lens. We analyzed brain activity with fMRI while people changed the size and location of their attentional focus, and developed a method to track how and where attention is distributed in the brain. This reveals that our brains dynamically adapt the “width” of attention to fit the task at hand.
-      Published in <i>eLife</i> (2026) | 
+      Published in <i>eLife</i> (2025) | 
                 <a href="https://elifesciences.org/articles/104222" target="_blank">[paper]</a> | 
                 <a href="http://ilonabloem.github.io/files/BloemBakst_eLife.pdf" target="_blank">[PDF]</a>
       </p>
