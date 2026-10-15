@@ -1,5 +1,19 @@
 {% include base_path %}
-
-{% for item in site.data.navigation.main %}
-{{ item.title }}
-{% endfor %}
+ 
+<header id="scroll-nav" class="scroll-nav">
+  <button class="scroll-nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="scroll-nav-menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul id="scroll-nav-menu" class="scroll-nav__menu">
+    {% for item in site.data.navigation.main %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</header>
+ 
+<!-- Placeholder for the theme's built-in menu script (main.min.js). Keep it, or the script errors. -->
+<nav id="site-nav" style="display: none;" aria-hidden="true">
+  <button class="hidden"></button>
+  <ul class="visible-links"></ul>
+  <ul class="hidden-links hidden"></ul>
+</nav>
