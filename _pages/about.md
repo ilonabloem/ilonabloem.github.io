@@ -13,7 +13,7 @@ redirect_from:
   <br>
   <h2>ABOUT ME</h2>
 
-  <img src="/images/ilonabloem.jpg" alt="Alt text" style="float: right; margin-left: 20px; max-width: 200px;">
+  <img src="/images/ilonabloem.jpg" alt="Ilona Bloem" style="float: right; margin-left: 20px; max-width: 200px;">
  
   What we see isn’t simply a picture of the outside world. It’s created by our brains through intricate processes that turn patterns of light first sensed by our eyes into meaningful experiences. This process relies heavily on context: what is in the surrounding environment, what happened in the recent past, and internal goals all jointly shape visual experience. Context includes all these dimensions and dynamically shapes how we perceive and interpret the world.<br><br>
   
