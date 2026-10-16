@@ -267,3 +267,10 @@ body {
   color: #4285F4 !important;    /* lime green */
   font-size: 2em !important;  /* larger icon */
 }
+
+/* Narrower white boxes so more of the background shows */
+.page__content .section-white {
+  max-width: 780px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
